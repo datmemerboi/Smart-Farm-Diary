@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SMART FARM DIARY</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/sfdindex.css">
+</head>
+<body><br>
+	<div class="logo">
+		<label class="logo" onclick=" window.location.href='../html/sfdindex.html'; ">Smart Farm Diary</label>
+	<input type="button" name="LogoutBtn" value="Log Out" class="btn logout" onclick=" window.location.href='../php/sfdlogout.php'; ">
+	</div>
+	<div id="SearchDiv">
+		<form action="../php/searchstock.php" method="POST" id="searchForm">
+			<center><input type="text" name="searchBar" id="searchBar" class="searchBar" placeholder="Search"></center><i class="fa fa-search search_icon w3-xxlarge" onclick="submission();"></input></i>
+		</form>
+	</div>
+	<div id="UserProfileDiv" class="halfify">
+		<iframe src="../frames/frame4.php" class="UserNameFrame"></iframe>
+		<br>
+		<button onclick=" window.location.href='../php/userprofile.php' " class="btn userDivBtn">Edit Profile</button>
+		<button onclick=" window.location.href='../php/userexpenses.php'" class="btn userDivBtn">My Expenses</button>
+	</div>	
+	<div id="ExpenseCalcDiv" class="halfify">
+		<iframe src="../frames/frame1.php" class="ExpenseCalcFrame"></iframe>
+	</div>
+<marquee class="footers" behavior='scroll' direction='left' scrollamount=10><p id="marq_text">SAVE FARMERS!!</p></marquee>
+</body>
+<script type="text/javascript">
+	function submission()
+	{
+		// var x = document.getElementById('searchForm').elements[0].value;
+		// console.log(x);
+		document.getElementById('searchForm').submit();
+	}
+</script>
+</html>

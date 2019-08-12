@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Store Keeper</title>
+	<style type="text/css">
+		html {
+			font-family: Arial;
+			animation-name: opaque;
+			animation-duration: 1s;
+		}
+		@-webkit-keyframes opaque {
+			from { opacity: 0; background-color: #000; }
+			to { opacity: 1; background-color: #fff; }
+		}
+		.container {
+			background-color: #B6FF79;
+			width: 40%;
+			position: absolute;
+			top: 6%;
+			padding: 2%;
+			left: 27%;
+		}
+		.btn {
+			border-width:0;
+			background-color: #F0F3F4;
+			width: 90px;
+			height: 45px;
+			border-radius: 9px;
+			box-shadow: 5px 5px 20px black;
+		}
+		.InputBox {
+			border-width: 0;
+			background-color: #F0F3F4;
+			height: 45px;
+			width: 400px;
+			padding: 10px;
+			padding-left: 3em;
+			border-radius: 9px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<center>
+			<form action="../php/storekeeperlogin.php" method="post">
+				<input type="text" name="StoreKeeperUserName" placeholder="User Name" class="InputBox"><br><br>
+				<input type="password" name="StoreKeeperPassWord" placeholder="Password" class="InputBox"><br><br><br>
+				<input type="submit" name="SubmitBtn" class="btn" value="Submit">
+			</form>
+		</center>
+	</div>
+</body>
+</html>
