@@ -9,4 +9,4 @@ We can **calculate expenses**, **update any current expenses** and **search** fo
 
 **Note:**
 
-For the time being, the entire project has been uploaded onto this repo. Updates will be completed shortly.
+For the time being, the entire project has been uploaded onto this repo. Updates and re-arrangements will be completed shortly.
