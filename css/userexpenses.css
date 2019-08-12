@@ -1,0 +1,53 @@
+@-webkit-keyframes opaque {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+		@-webkit-keyframes pushDown {
+			from { position:relative;top:-10em; }
+			to { position: relative; top: 5em; }
+		}
+		html {
+			font-family: Arial;
+			background-color: #202020;
+			animation: opaque 1s;
+		}
+		div.logo {
+			position:fixed;
+			top: 0;
+			left: 0;
+			background-color: #22CF9B;
+			width: 100%;
+			height: 50px;
+		}
+		div.container {
+			color: white;
+			width: 50%;
+			border: solid 2px white;
+			border-radius: 20px;
+			padding:2%;
+			animation: pushDown 2s;
+			position: relative;
+			top: 5em;
+		}
+		label.logo {
+			font-size: 23px;
+			position: relative;
+			top: 0.5em;
+		}
+		label.storeName {
+			font-weight: 900;
+			font-size: 20px;
+		}
+		.btn {
+			width: 120px;
+			height: 35px;
+			border: none;
+			border-radius: 6px;
+			display: inline-block;
+			background-color: #F5F5F5;
+			font-size: 16px;
+			box-shadow: 5px 5px 20px black;
+		}
+		.btn:hover {
+			background-color: #C7C7C7;
+		}

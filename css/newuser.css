@@ -1,0 +1,43 @@
+html {
+	font-family: Arial;
+	background-color: #202020;
+	animation: opaque 1s;
+}
+@-webkit-keyframes opaque {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+.container {
+	/*background-color: rgba(19, 241, 237, 0.6);*/
+	background-color: #22CF9B;
+	width: 40%;
+	position: absolute;
+	top: 6%;
+	padding: 2%;
+	left: 27%;
+}
+.btn {
+	border-width:0;
+	background-color: #F0F3F4;
+	width: 90px;
+	height: 45px;
+	border-radius: 9px;
+	box-shadow: 5px 5px 20px black;
+	font-size: 15px;
+}
+.InputBox {
+	border-width: 0;
+	height: 45px;
+	width: 400px;
+	padding: 10px;
+	padding-left: 3em;
+	border-radius: 9px;
+	background: none;
+	border-radius: 10px;
+	border: solid 2px white;
+	font-size: 18px;
+}
+.InputBox::placeholder {
+	color: #505050;
+	font-size: 18px;
+}

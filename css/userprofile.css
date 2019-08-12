@@ -1,0 +1,96 @@
+@-webkit-keyframes opaque {
+			from { opacity:0; }
+			to { opacity:1; }
+		}
+		html {
+			font-family: Arial;
+			font-size: 28px;
+			animation: opaque 1s;
+		}
+		@-webkit-keyframes pushdown {
+			from { position:absolute;top: -10em; }
+			to { position:absolute;top: 1.8em; }
+		}
+		.nav {
+			animation: pushdown 2s;
+			position: absolute;
+			top: 1.8em;
+			left: 0;
+			width: 25%;
+			/*height: 83.3%;*/
+			height: 75.8%;
+			background-color: rgb(11, 196, 192);
+			display: inline;
+			padding-top: 4em;
+		}
+		.deets {
+			animation: pushdown 2s;
+			position: absolute;
+			top: 1.8em;
+			left: 25%;
+			display: inline;
+			width: 75%;
+			/*height: 100%;*/
+			height: 92.5%;
+			background-color: #202020;
+			color: #fff;
+		}
+		.contain_deets {
+			position: absolute;
+			top: 6em;
+			left: 10%;
+		}
+		.nav_btn {
+			font-family: Arial;
+			font-size: 23px;
+			position: relative;
+			height: 5em;
+			width: 100%;
+			border: none;
+			margin: none;
+			background-color: transparent;
+		}
+		.nav_btn:hover {
+			background-color: rgba(7, 133, 130, 0.8);
+		}
+		.inputBox {
+			margin: none;
+			border: none;
+			width: 23em;
+			height: 3em;
+			padding: 2%;
+			padding-left: 2em;
+			font-family: Arial;
+			font-size: 18px;
+		}
+		.btns {
+			border: none;
+			margin: none;
+			background-color: #f0faf0;
+			height: 3em;
+			width: 13em;
+			font-family: Arial;
+			font-size: 18px;
+		}
+		#changePwd {
+			display: none;
+		}
+		#changeContact {
+			display: none;
+		}
+		#changeTown {
+			display: none;
+		}
+		div.logo {
+			position:fixed;
+			top: 0;
+			left: 0;
+			background-color: #22CF9B;
+			width: 100%;
+			height: 50px;
+		}
+		label.logo {
+			font-size: 23px;
+			position: relative;
+			top: 0.5em;
+		}

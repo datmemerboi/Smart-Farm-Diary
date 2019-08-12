@@ -1,0 +1,107 @@
+html {
+			animation: opaque 1s;
+			background-color: #202020;
+			font-family: Arial;
+		}
+		@-webkit-keyframes opaque {
+			from { opacity: 0; }
+			to { opacity: 1; }
+		}
+		.footers {
+			position: fixed;
+			bottom:0px;
+			left: 0;
+			width: 100%;
+			height: 50px;
+			animation: infinite;
+			background-color: #22CF9B;
+			font-size: 18px;
+		}
+		div.logo {
+			position:fixed;
+			top: 0;
+			left: 0;
+			background-color: #22CF9B;
+			width: 100%;
+			height: 50px;
+		}
+		label.logo {
+			font-size: 23px;
+			position: relative;
+			top: 0.5em;
+		}
+		.btn {
+			width: 160px;
+			height: 40px;
+			border: none;
+			border-radius: 6px;
+			display: inline-block;
+			background-color: #F5F5F5;
+			font-size: 16px;
+			box-shadow: 5px 5px 20px black;
+		}
+		.logout {
+			width: 100px;
+			height: 30px;
+			position: absolute;
+			right: 2em;
+			top: 0.5em;
+		}
+		.searchBar {
+			width: 40%;
+			height: 15px;
+			padding: 2%;
+			position: relative;
+			top: 3em;
+			background: none;
+			border-radius: 10px;
+			border: solid 2px white;
+			color: white;
+			font-size: 20px;
+			animation: opaque 3s;
+		}
+		.searchBar::placeholder {
+			color: white;
+			font-size: 20px;
+		}
+		.search_icon {
+			display: inline;
+			position: relative;
+			left: 28em;
+			top: 5px;
+			color: white;
+			animation: opaque 5s;
+		}
+		div.halfify {
+			display: inline-block;
+			width: 48%;
+			height: 30%;
+			background:none;
+			border-radius: 10px;
+			border: solid 2px white;
+			position: absolute;
+			top: 10em;
+			color: white;
+			font-size: 28px;
+		}
+		div#UserProfileDiv {
+			left:1%;
+		}
+		div#ExpenseCalcDiv {
+			left: 51%;
+		}
+		.UserNameFrame {
+			width: 300px;
+			height: 80px;
+			border:none;
+		}
+		.ExpenseCalcFrame {
+			width: 99.8%;
+			height: 100%;
+			border: none;
+		}
+		.userDivBtn {
+			position:relative;
+			left: 30%;
+			bottom: -17%;
+		}
