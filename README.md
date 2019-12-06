@@ -7,6 +7,5 @@ The main aim of this app is to help farmers calculate & maintain their expenses 
 
 We can **calculate expenses**, **update any current expenses** and **search** for products & rates nearby.
 
-**Note:**
-
-For the time being, the entire project has been uploaded onto this repo. Updates and re-arrangements will be completed shortly.
+*Note:*
+The entire project has been uploaded onto this repo. Updates and re-arrangements will be completed shortly.
